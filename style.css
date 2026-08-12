@@ -405,6 +405,7 @@ button {
   right: 5%;
   color: #fff;
   text-align: center;
+  line-height: 25px;
 }
 .profile-info p {
   font-size: 9px;
@@ -414,6 +415,13 @@ button {
 .profile-info h3 {
   font-family: "Space Grotesk";
   font-size: 22px;
+}
+
+.profile-info h5 {
+  line-height: 20px;
+}
+.profile-info h6 {
+  line-height: 20px;
 }
 .floating-card {
   position: absolute;
