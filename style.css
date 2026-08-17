@@ -776,6 +776,31 @@ button {
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
+.personal-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  margin: 8px 0 10px;
+
+  color: var(--text);
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  transition: color 0.25s ease;
+}
+
+.personal-phone i {
+  color: var(--purple);
+  font-size: 14px;
+}
+
+.personal-phone:hover {
+  color: var(--purple);
+}
+
 .info-card {
   min-height: 220px;
   padding: 28px;
